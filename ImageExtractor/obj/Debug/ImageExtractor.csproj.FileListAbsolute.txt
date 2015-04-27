@@ -1,0 +1,8 @@
+c:\users\administrator\documents\visual studio 2013\Projects\ImageExtractor\ImageExtractor\bin\Debug\ImageExtractor.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\ImageExtractor\ImageExtractor\bin\Debug\ImageExtractor.exe
+c:\users\administrator\documents\visual studio 2013\Projects\ImageExtractor\ImageExtractor\bin\Debug\ImageExtractor.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\ImageExtractor\ImageExtractor\obj\Debug\ImageExtractor.exe
+c:\users\administrator\documents\visual studio 2013\Projects\ImageExtractor\ImageExtractor\obj\Debug\ImageExtractor.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\ImageExtractor\ImageExtractor\bin\Debug\CommandLine.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\ImageExtractor\ImageExtractor\bin\Debug\CommandLine.xml
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\ImageExtractor\ImageExtractor\obj\Debug\ImageExtractor.csprojResolveAssemblyReference.cache
