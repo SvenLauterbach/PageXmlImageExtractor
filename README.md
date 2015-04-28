@@ -2,10 +2,13 @@
 Tool for extracting glyph images from a page xml file for a ocr image.
 
 #Usage
-ImageExtractor -i <inputImageFile> -x <pageXml> -o <outputFolder>
+ImageExtractor -i inputImageFile -x pageXml -o outputFolder
+
 
 -i: Path to the ocr image from which the glyphs will be extracted.
+
 -x: Path to the aletheia page xml file.
+
 -o: Path to the folder to put all glyph images in.
 
 #Description
