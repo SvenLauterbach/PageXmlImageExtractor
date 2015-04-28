@@ -21,6 +21,10 @@ Franken+ uses an external tool for extracting the actual glyph images from the o
 
 ![alt tag](https://github.com/SvenLauterbach/GitHubAssets/blob/master/ImageExtractor/boundingPolygon.PNG)
 
+This will be extracted as:
+
+![alt tag](https://github.com/SvenLauterbach/GitHubAssets/blob/master/ImageExtractor/wrongGlyph.PNG?raw=true)
+
 Aletheia addresses this problem by providing the user with a tool which lets the user create a bounding polygon (the green line around the long s in the picture is such a bounding polygon whereas the q has a normal bounding box).
 
 #Solution
