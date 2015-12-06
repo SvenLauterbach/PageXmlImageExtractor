@@ -41,7 +41,7 @@ namespace ImageExtractor
             XmlNamespaceManager namespaceManager = new XmlNamespaceManager(reader.NameTable);
             namespaceManager.AddNamespace("aletheia", pageXmlNamespace.NamespaceName);
 
-            var Extracts = from REC in aletheiaDoc.Descendants(pageXmlNamespace + "Glyph")
+            var Extracts = from REC in aletheiaDoc.Descendants(pageXmlNamespace + "TextLine")
                            select new Glyph
                            {
                                ID = (string)(REC.Attribute("id") ?? new XAttribute("id", string.Empty)),
