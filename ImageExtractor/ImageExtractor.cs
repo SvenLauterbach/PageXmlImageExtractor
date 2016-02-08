@@ -127,6 +127,10 @@ namespace ImageExtractor
             return new Rectangle(xmin, ymin, xmax - xmin, ymax - ymin);
         }
 
+        /// <summary>
+        /// Converts a bitmap to a tiff encoded memory stream.
+        /// Source: http://stackoverflow.com/questions/33481937/corruption-when-creating-multipage-tiff-over-a-certain-small-size
+        /// </summary>
         public byte[] GetTiffImageBytes(Bitmap img, bool byScanlines)
         {
             try
@@ -216,6 +220,9 @@ namespace ImageExtractor
             }
         }
 
+        /// <summary>
+        /// Source: http://stackoverflow.com/questions/33481937/corruption-when-creating-multipage-tiff-over-a-certain-small-size
+        /// </summary>
         public byte[] GetImageRasterBytes(Bitmap img)
         {
             // Specify full image
@@ -250,6 +257,9 @@ namespace ImageExtractor
             return bits;
         }
 
+        /// <summary>
+        /// Source: http://stackoverflow.com/questions/33481937/corruption-when-creating-multipage-tiff-over-a-certain-small-size
+        /// </summary>
         private Bitmap convertToBitonal(Bitmap original)
         {
             int sourceStride;
@@ -319,6 +329,9 @@ namespace ImageExtractor
             return destination;
         }
 
+        /// <summary>
+        /// Source: http://stackoverflow.com/questions/33481937/corruption-when-creating-multipage-tiff-over-a-certain-small-size
+        /// </summary>
         private byte[] extractBytes(Bitmap original, out int stride)
         {
             Bitmap source = null;
@@ -364,6 +377,9 @@ namespace ImageExtractor
 
         }
 
+        /// <summary>
+        /// Source: http://stackoverflow.com/questions/11428724/how-to-create-inverse-png-image
+        /// </summary>
         public void BitmapInvertColors(Bitmap bitmapImage)
         {
             var bitmapRead = bitmapImage.LockBits(new Rectangle(0, 0, bitmapImage.Width, bitmapImage.Height), ImageLockMode.ReadOnly, PixelFormat.Format32bppPArgb);
